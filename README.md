@@ -17,15 +17,16 @@ Features
 - Importing some additional stocks and analysing the key metrics
 - Generating random portfolios with the additional stocks
 - Finding the efficient frontier and visualising the impact of the additional stocks on it
-- Recommending a risky, balanced and safe portfolio
+- Recommending a risky, balanced and safe portfolios
 
 Installation
 - Clone the repostiory using:
 - git clone https://github.com/AdamBartlett7/Stock-Data-Analysis.git
+- Navigate to the correct directory using:
 - cd Stock-Data-Analysis
-- Create your own virtual environment if needed
-- To install the necessary python libraries:
-- pip install -r requirements.txt
+- Create your own virtual environment with the necessary python libraries using:
+- conda env create -f environment.yml
+- Then open any code editor and run Stock_Data.ipynb.
   
 Usage
 - Run Stock_Data.ipynb in sequential order
