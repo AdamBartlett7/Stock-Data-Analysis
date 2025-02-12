@@ -95,19 +95,19 @@ The dataset includes:
 # Portfolio Results
 
 - Risky portfolio
-  Returns: 0.00396%
-  Volatility: 0.01813%
-  Sharpe Ratio: 0.20796%
+  Returns: 0.39595%
+  Volatility: 1.81042%
+  Sharpe Ratio: 0.2186
   
 - Safe portfolio
-  Returns: 0.0017%
-  Volatility: 0.00959%
-  Sharpe Ratio: 0.15751%
+  Returns: 0.1701%
+  Volatility: 0.95524%
+  Sharpe Ratio: 0.17787
   
 - Balanced portfolio
-  Returns: 0.00283%
-  Volatility: 0.01317%
-  Sharpe Ratio: 0.20034%
+  Returns: 0.28291%
+  Volatility: 1.317%
+  Sharpe Ratio: 0.21467
 
 # Future Improvements
 
