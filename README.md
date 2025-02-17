@@ -95,24 +95,69 @@ The dataset includes:
 # Portfolio Results
 
 - Risky portfolio
-  Returns: 0.39595%
-  Volatility: 1.81042%
-  Sharpe Ratio: 0.2186
+  
+  |            | Returns   | Volatility | Sharpe Ratio |
+  | ---------- | --------- | ---------- | ------------ |  
+  | Daily      | 0.39595%  | 1.81042%   | 0.2186       |
+  | Annual     | 99.77852% | 28.73948%  | 3.47009      |
+
+  | Stock      | Weight    |
+  | ---------- | --------- |
+  |AMD         | 0         |
+  |AMZN        | 0         |
+  |JPM         | 0.05504   |
+  |META        | 0.36605   |
+  |MSFT        | 0         |
+  |NFLX        | 0.03301   |
+  |NVDA        | 0.31013   |
+  |RACE        | 0.21879   |
+  |SPY         | 0         |
+  |TSLA        | 0.01698   |
   
 - Safe portfolio
-  Returns: 0.1701%
-  Volatility: 0.95524%
-  Sharpe Ratio: 0.17787
   
-- Balanced portfolio
-  Returns: 0.28291%
-  Volatility: 1.317%
-  Sharpe Ratio: 0.21467
+  |            | Returns   | Volatility | Sharpe Ratio |
+  | ---------- | --------- | ---------- | ------------ |  
+  | Daily      | 0.1701%   | 0.95524%   | 0.17787      |
+  | Annual     | 42.86554% | 15.16396%  | 2.82351      |
+
+  | Stock      | Weight    |
+  | ---------- | --------- |
+  |AMD         | 0         |
+  |AMZN        | 0         |
+  |JPM         | 0.17943   |
+  |META        | 0.05975   |
+  |MSFT        | 0.08536   |
+  |NFLX        | 0.02218   |
+  |NVDA        | 0.03699   |
+  |RACE        | 0.21339   |
+  |SPY         | 0.4029    |
+  |TSLA        | 0         |
+  
+- Mixed portfolio
+
+  |            | Returns   | Volatility | Sharpe Ratio |
+  | ---------- | --------- | ---------- | ------------ |  
+  | Daily      | 0.28291%  | 1.317%     | 0.21467      |
+  | Annual     | 71.29354% | 20.90671%  | 3.40769      |
+
+  | Stock      | Weight    |
+  | ---------- | --------- |
+  |AMD         | 0         |
+  |AMZN        | 0         |
+  |JPM         | 0.23576   |
+  |META        | 0.20342   |
+  |MSFT        | 0.05225   |
+  |NFLX        | 0.05451   |
+  |NVDA        | 0.15478   |
+  |RACE        | 0.29927   |
+  |SPY         | 0         |
+  |TSLA        | 0         |
 
 # Future Improvements
 
 - Incorperate Alpha and Beta or other performance metrics.
-- Expand analysis to include more years of data.
+- Expand analysis to include more years of data and different stocks.
 
 # License
 - This project is licensed under the MIT License. See the LICENSE file for details.
